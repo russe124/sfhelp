@@ -1,0 +1,57 @@
+实时行情
+ts.get_today_all()
+code：代码
+name:名称
+changepercent:涨跌幅
+trade:现价
+open:开盘价
+high:最高价
+low:最低价
+settlement:昨日收盘价
+volume:成交量
+turnoverratio:换手率
+amount:成交金额
+per:市盈率 04
+pb:市净率
+mktcap:总市值
+nmc:流通市值
+
+股票列表
+ts.get_stock_basics()
+code,代码
+name,名称
+industry,所属行业
+area,地区
+pe,市盈率
+outstanding,流通股本(亿)
+totals,总股本(亿)
+totalAssets,总资产(万)
+liquidAssets,流动资产
+fixedAssets,固定资产
+reserved,公积金
+reservedPerShare,每股公积金
+esp,每股收益   01
+bvps,每股净资 02
+pb,市净率
+timeToMarket,上市日期
+undp,未分利润
+perundp, 每股未分配
+rev,收入同比(%) 06
+profit,利润同比(%)
+gpr,毛利率(%)
+npr,净利润率(%) 05
+holders,股东人数
+
+业绩报告（主表）
+ts.get_report_data(2014,3)
+code,代码
+name,名称
+esp,每股收益  01
+eps_yoy,每股收益同比(%)
+bvps,每股净资产  02
+roe,净资产收益率(%) 03
+epcf,每股现金流量(元)
+net_profits,净利润(万元)
+profits_yoy,净利润同比(%)05
+distrib,分配方案
+report_date,发布日期
